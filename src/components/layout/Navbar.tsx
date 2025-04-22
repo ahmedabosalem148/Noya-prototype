@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -8,8 +7,7 @@ const Navbar: React.FC = () => {
     <header className="border-b border-gray-200">
       <div className="container mx-auto flex items-center justify-between py-4">
         <Link to="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold text-teal">HomePrep</span>
-          <span className="text-orange font-medium">Wizard</span>
+          <span className="text-2xl font-bold text-teal">Noya</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-6">
           <Link to="/packages" className="text-gray-600 hover:text-teal transition-colors">

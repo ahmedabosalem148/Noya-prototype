@@ -10,7 +10,7 @@ const HeroSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 max-w-xl animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-800">
-              Transform Your <span className="text-teal">Home</span> From Empty to Perfect
+              Transform Your <span className="text-teal">Space</span> With Noya
             </h1>
             <p className="text-lg text-gray-600">
               Complete home setup solutions for newlyweds, new homeowners, and renovators. 
@@ -28,8 +28,8 @@ const HeroSection: React.FC = () => {
           
           <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9" 
-              alt="Modern furnished home interior" 
+              src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+              alt="Modern furnished living room with stylish furniture" 
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
